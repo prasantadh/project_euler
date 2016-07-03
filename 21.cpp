@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	vector<int> sum ( 10001, 1 );
+	vector<int> sum ( 10001, 1 ); 
 	for( int i = 1; i <= 10000; i++)
 	{
 		for( int j = 2; j <= sqrt( i ) ; j++ ) {

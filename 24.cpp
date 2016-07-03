@@ -15,7 +15,7 @@ int main()
 	for( int i = 1; i < components.size(); i++ ) 	//initialize the factorials		
 		components[ i ] = i;
 
-	int Nth = 1000000; 				//required Nth lexicographic Permutation
+	int Nth = 999999; 	//required lexicographic Permutation - 1
 	int chosen = -1;
 	for ( int i = 9; i >= 0; i-- ) 
 	{
